@@ -10,7 +10,7 @@ body {
     font-size: 1.3em;
     height: 100vh;
     color: black;
-    background-image: linear-gradient(to bottom, #8E0E00, #1F1C18);
+    background-image: linear-gradient(to bottom, #b6b4b4, #f2f0f0);
 }
 
 h1 {
@@ -29,7 +29,7 @@ a {
 }
 
 a:hover {
-    color: white;
+    color: #971A1C;
 }
 
 a::after {
@@ -40,7 +40,7 @@ a::after {
     left: 0;
     width: 100%;
     height: 0.1em;
-    background-color: white;
+    background-color: black;
     opacity: 0;
     transition: opacity 300ms, transform 300ms;
 }
@@ -67,5 +67,5 @@ div.img {
     position: absolute;
     top: 50%;
     left: 20%;
-    
+    min-width: 400px;
 }
