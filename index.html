@@ -7,35 +7,6 @@
     <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
-    <section>
-        <img src="image/sky.jpeg" id="bg">
-        <img src="image/moon.png" id="moon">
-        <img src="image/mountain.png" id="mountain">
-        <img src="image/road.png" id="road">
-
-        <h2 id="text">Hello, World</h2>
-    </section>
-
-    <h3>
-        To visit my <a href="https://github.com/mafaldars" target="_blank">GitHub profile click here</a>.
-    </h3>
-
-    <script type="text/javascript">
-        let bg = document.getElementById("bg");
-        let moon = document.getElementById("moon");
-        let mountain = document.getElementById("mountain");
-        let road = document.getElementById("road");
-        let text = document.getElementById("text");
-
-        window.addEventListener('scroll', function() {
-            var value = window.scrollY;
-
-            bg.style.top = value * 0.5 + 'px';
-            moon.style.left = -value * 0.5 + 'px';
-            mountain.style.top = -value * 0.15 + 'px';
-            road.style.top = value * 0.15 + 'px';
-            text.style.top = value * 1 + 'px';
-        })
-    </script>
+    
 </body>
 </html>
