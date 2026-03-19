@@ -1,12 +1,15 @@
 
-* {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 1em;
-    font-weight: bold;
+body {
+  background-image: url("../image/sky.jpeg");
+  background-size: cover;
+  color: rgb(185, 183, 183);
+  font-family: monospace;
+  font-size: 1.3em;
+  font-weight: bold;
 }
 
 a {
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
@@ -14,8 +17,3 @@ a:hover {
     text-decoration: underline;
 }
 
-.parallax {
-  /* The image used */
-  background-image: url("../image/sky.jpeg");
-  background-size: cover;
-}
